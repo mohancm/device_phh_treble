@@ -5,7 +5,7 @@ PRODUCT_COPY_FILES := \
 	frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
 
 #Use a more decent APN config
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
 	device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/phh/treble/sepolicy
